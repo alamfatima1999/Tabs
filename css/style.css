@@ -1,0 +1,91 @@
+body {
+    background: white;
+    color: black;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Tab & Iframe CSS */
+.tab-bar {
+    display: flex;
+    padding: 8px;
+    background-color: #f1f1f1;
+}
+
+.tab-bar button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.tab {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tab.active {
+    background-color: white;
+    border-bottom: 2px solid #3f80ff;
+}
+
+.tab iframe {
+    display: none;
+    width: 100%;
+    height: calc(100vh - 40px);
+    /* Adjust for tab bar height */
+    border: none;
+}
+
+#tabs-container.active iframe {
+    display: block;
+}
+
+#add-tab-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: auto;
+}
+
+.close-tab-btn {
+    margin-left: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Loader CSS */
+.loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+    display: none;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
