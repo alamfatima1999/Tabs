@@ -1,5 +1,8 @@
 # HTML, Javascript, JQuery Assignment
 
+This project is about how we can create multiple tabs & behaviour similar to chrome tab where we add tab & can delete a tab.
+New tab will open with input field & add URL of page you want to load
+
 # Steps to run
 
 - We have index.html as main file for this assignment
@@ -11,6 +14,10 @@
 
 - We have Model, View & Controller
 - We have seperate CSS file for app CSS
+
+  
+# Deploy on Netlify
+[Tabs link](https://tabs-fatima.netlify.app/)
 
 
 # ScreenShots
