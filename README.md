@@ -16,7 +16,7 @@ New tab will open with input field & add URL of page you want to load
 - We have seperate CSS file for app CSS
 
   
-# Deploy on Netlify
+# Deployed on Netlify
 [Tabs link](https://tabs-fatima.netlify.app/)
 
 
